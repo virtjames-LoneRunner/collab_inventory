@@ -5,14 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+
     <title>Salaan Hardware</title>
   </head>
   <body>
-    <center>
-      <h1>Salaan Enterprises</h1>
-      <h3><b> Where the best hardware supplies are found in Bohol! </b></h3>
-    </center>
+    <nav class="navbar">
+      <div class="brand"><h5>SALAAN ENTERPRISES</h5></div>
+      <div class="search"></div>
+      <div class="auth">
+        <ul>
+          <input type="text" placeholder="Search" />
+          <li class="nav-link"><a href="/about">About</a></li>
+          <li class="dropdown">
+            <a href="/" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+              <a href="#" class="dropdown-link">Tools</a>
+              <a href="#" class="dropdown-link">Supplies</a>
+              <a href="#" class="dropdown-link">Accessories</a>
+            </div>
+          </li>
+          <li class="nav-link"><a href="#">Register</a></li>
+          <li class="nav-link"><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <a href="/about">About Page</a>
   </body>
+
+  <script src="./static/js/bootstrap.min.js"></script>
 </html>

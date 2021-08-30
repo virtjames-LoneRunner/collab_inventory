@@ -1,0 +1,39 @@
+# Online Store
+
+Front End
+    -HTML
+    -CSS
+    -JS
+
+Backend
+    -Node JS
+
+Database
+    -Inventory of Products
+        -Barcode
+        -Name
+        -Price
+        -Stock
+        -Pictures
+
+    -Accounts
+        -Username
+        -Password  (hashing)
+        -First Name
+        -Middle
+        -Last
+        -Contact Information
+
+    -Transactions
+        -Date and Time
+        -Transaction Code
+        -Cart
+        -Amount Given
+        -Discounts
+        -Change
+
+        Addition
+        -Logistics
+
+
+Products
